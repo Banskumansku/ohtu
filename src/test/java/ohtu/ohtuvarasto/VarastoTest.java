@@ -112,7 +112,7 @@ public class VarastoTest {
     @Test
     public void oikeamaaravarasto() {
         Varasto var = new Varasto(10, 1);
-        assertEquals(9, var.paljonkoMahtuu(), vertailuTarkkuus);
+        assertEquals(8, var.paljonkoMahtuu(), vertailuTarkkuus);
     }
 
     @Test
