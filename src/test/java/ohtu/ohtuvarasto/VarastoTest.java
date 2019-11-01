@@ -1,17 +1,9 @@
 package ohtu.ohtuvarasto;
 
-import org.junit.*;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
-import org.junit.After;
-import org.junit.AfterClass;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
-
-import main.ohtuvarasto.Varasto;
-
-import static org.junit.Assert.*;
 
 public class VarastoTest {
 
