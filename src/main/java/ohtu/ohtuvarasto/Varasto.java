@@ -10,7 +10,8 @@ public class Varasto {
     public Varasto(double tilavuus) { // tilavuus on annettava
         if (tilavuus > 0.0) {
             this.tilavuus = tilavuus;
-        } else {// virheellinen, nollataan
+        } else 
+        {// virheellinen, nollataan
             this.tilavuus = 0.0; // => käyttökelvoton varasto
         }
         saldo = 0; // oletus: varasto on tyhjä
